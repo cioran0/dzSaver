@@ -8,7 +8,7 @@ import webbrowser
 class DzSaveApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("VIPS DZSaver")
+        self.root.title("VIPS DZSaver by cioran0")
         self.root.geometry("450x300")
 
         # Check if vips is installed
