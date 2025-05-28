@@ -1,6 +1,6 @@
 # dzSaver
 
-*if you just want the .exe, it's [here](https://github.com/cioran0/dzSaver/releases/tag/dzi) or right in releases*
+*if you just want the .exe, it's [here](https://github.com/cioran0/dzSaver/releases/tag/dzi) or right -> in releases*
 
 This is a Tkinter based VIPS GUI (and yes I know Vips has a GUI nips2 over at https://www.libvips.org/), but it's kind of complicated and not my cup of tea. This program uses VIPS (libvips) over at https://github.com/libvips/libvips to create dzi files using the vips dzsave command I always use for OSD. Can change directory or reset directory, can keep dragging over files. Only tested on Windows so far but works fine on that. Directs you to libvips site if you don't have it installed. Just makes my life easier. If you like it you like it. Credit me if you use it.
 
