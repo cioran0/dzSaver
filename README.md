@@ -6,4 +6,4 @@ Uses tkinter and must install tkinterdnd2 mentioned in requirements. Can be inst
 
 ![Screenshot 2025-05-18 014537](https://github.com/user-attachments/assets/a15269c2-ff1e-4740-8130-3c8950ce27b3)
 
-See LICENSES section for all relevant Licenses libvips and tkinterdnd2. libvips is not included in the source, it is only included in the build. tkinterdnd2 is also not included in the src, but the build.
+See LICENSES section for all relevant Licenses libvips and tkinterdnd2. libvips is not included in the source, it is only included in the dist build. tkinterdnd2 is also not included in the src, but the dist build.
