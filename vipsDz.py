@@ -67,7 +67,7 @@ class DzSaveApp:
 
         # Run the command
         try:
-            subprocess.run(command, check=True, env=env)
+            subprocess.run(command, check=True, env=env, creationflags=subprocess.CREATE_NO_WINDOW)
             messagebox.showinfo("Success", f"Processed {file_path} and saved to {output_name}.dzi")
             self.label.config(font=("Courier", 15))
             self.update_label(f"Processed {file_path} and saved to {output_name}.dzi")
@@ -82,7 +82,7 @@ class DzSaveApp:
     #check if vips installed using subprocess to run it before running
     def check_vips_installed(self):
         try:
-            result = subprocess.run(["vips", "--version"], capture_output=True, text=True, timeout=5)
+            result = subprocess.run(["vips", "--version"], capture_output=True, text=True, timeout=5, creationflags=subprocess.CREATE_NO_WINDOW)
             return result.returncode == 0
         except FileNotFoundError:
             return False
