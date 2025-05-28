@@ -5,3 +5,5 @@ This is a Tkinter based VIPS GUI (and yes I know Vips has a GUI nips2 over at ht
 Uses tkinter and must install tkinterdnd2 mentioned in requirements. Can be installed ```pip install tkinterdnd2``` or from here https://pypi.org/project/tkinterdnd2/
 
 ![Screenshot 2025-05-18 014537](https://github.com/user-attachments/assets/a15269c2-ff1e-4740-8130-3c8950ce27b3)
+
+See LICENSES section for all relevant Licenses libvips and tkinterdnd2
